@@ -1,0 +1,216 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.navbar{
+    padding: 2% 15%;
+}
+
+.navbar-brand{
+    /* display: flex; */
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-collapse{
+    justify-content: right;
+}
+
+.first-page{
+    background-color: greenyellow;
+    background-image: url(../images/cats&dogs2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: darken;
+    padding: 8% 15%;
+    color: #fff;
+}
+
+h1{
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h3{
+    line-height: 1.5;
+}
+
+.download-btn{
+    margin: 2% 1% 2% 0;
+}
+
+/* features section */
+
+#features{
+    background-color: #fff;
+    padding: 10% 5%;
+}
+
+.card{
+    margin: 5% 10%;
+    text-align: center;
+}
+
+/* .features-heading{
+    padding-bottom: 2%;
+} */
+
+.features-icon{
+    margin-right: 2%;
+}
+
+h2{
+    font-weight: 700;
+}
+
+.card-body{
+    padding: 15%;
+}
+
+/* adoupt section */
+
+#adoupt{
+    background-color: #44AD21;
+    color: #fff;
+    padding: 8% 15%;
+}
+
+p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.read-more-btn:hover{
+    background-color: #025951;
+}
+
+.adoupt-section{
+    text-align: center;
+}
+
+.adoupt-img{
+    margin: 5% 0;
+    width: 80%;
+}
+
+/* benefits section */
+
+#benefits{
+    padding: 8% 15%;
+}
+
+.benefits-section1{
+    text-align: center;
+}
+
+.benefits-section2{
+    padding: 15% 5% 0;
+}
+
+hr{  
+    width: 15%;
+    margin: 5% auto;
+    border: 10px dotted #025951;
+    border-bottom: none;
+    opacity: 1;
+}
+
+
+/* featured animals section */
+
+
+#featured-animals{
+    padding: 8% 15%;
+    text-align: center;
+}
+
+/* .features-heading{
+    padding-bottom: 2%;
+} */
+
+.features{
+    padding-top: 5%;
+}
+
+.card{
+    box-shadow: 2px 2px 2px 2px #025951;
+}
+
+.card-img-top{
+    height: 25rem;
+}
+
+.show-more-btn{
+    margin-top: 5%;
+}
+
+/* contact section */
+
+#contact{
+    padding: 8% 15%;
+}
+
+.contact-section{
+    margin: 7% 0 7% 0;
+}
+
+.social-media{
+    border-right: 2px solid #025951;
+}
+
+.contact-icon{
+    font-size: 2rem;
+    color: #025951;
+    margin-right: 6%;
+}
+
+input{
+    margin: 5% 0;
+    padding: 2%;
+    border:2px solid #025951;
+}
+
+
+
+/* media quaries */
+
+@media ( max-width: 651px ) {
+    /* .navbar-brand{
+        text-align: center;
+    } */
+
+    .logo-img{
+        display: block;
+        /* margin: auto; */
+    }
+}
+
+@media ( min-width: 767px ) {
+    .feature-col-2{
+        padding-top: 10%;
+    }
+    
+    .feature-col-3{
+        padding-top: 20%;
+    }
+    
+}
+
+@media ( max-width: 767px ){
+    .social-media{
+        border-right: none;
+    }
+}
+
+@media ( max-width: 990px ){
+    #contact{
+        text-align: center;
+    }
+
+}
